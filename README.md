@@ -9,6 +9,11 @@ Elle permettra également d'effectuer une recherche selon les différentes propr
 * Implémenter une API JSON
 * Stockage dans une DB Relationelle. Recommandation : sqlite, pour plus de simplicité.
 
+Déjà installés :
+* Jest `npm run test`
+* Eslint
+* Babel, Babel-node, pour utiliser une syntaxe moderne sans soucis. `npx babel-node fichier.js` pour exécuter un fichier avec babel.
+
 ## Fonctionnalités essentielles
 
 * Stocker un ensemble de films
