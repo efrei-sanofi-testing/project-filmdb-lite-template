@@ -1,4 +1,6 @@
-# Projet FilmDB
+# Projet FilmDB CLI
+
+_Destiné aux stagiaires ayant des difficultés en JS_
 
 Votre objectif est de créer un outil en ligne de commande permettant de gérer la collection de films que vous avez sur votre ordinateur.
 L'outil permettra d'obtenir la liste des ses films, d'en ajouter, modifier et supprimer.
