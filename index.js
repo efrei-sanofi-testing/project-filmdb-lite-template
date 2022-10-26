@@ -1,11 +1,16 @@
-import express from "express";
-const app = express();
-const port = 3000;
+import chalk from "chalk";
+import prompts from "prompts";
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+async function app() {
+  console.log(chalk.bgBlue("Bienvenue !"));
 
-app.listen(port, () => {
-  console.log(`Example app listening on port http://localhost:${port}`);
-});
+  const promptResult = await prompts({
+    type: "text",
+    name: "firstName",
+    message: "Quel est ton nom?",
+  });
+
+  console.log(chalk.redBright.bold(`Bienvenue ${promptResult.firstName} !`));
+}
+
+app();
